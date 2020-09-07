@@ -1,0 +1,53 @@
+body{
+background-image: url(https://sacredsites.com/images/middle_east/syria/umayyad-mosque-1200.jpg);
+background-size: 1600px 1000px;
+background-attachment: fixed;
+font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+h1{
+    text-align: center;
+    color: #00008B;
+    font-size: 70px;
+    font-weight: bolder;
+    text-shadow: -10px -4px 4px black;
+}
+nav{
+    display: inline;
+    text-decoration: none;
+    margin-left: 300px;
+   font-size: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+#about{
+    margin-right: 300px;
+    color: #006400;
+    font-weight: bold;
+    border: 3px dashed #191970 ;
+    text-shadow: -2px -1px black;
+}
+#come{
+    margin-right: 300px;
+    color: #006400;
+    font-weight: bold;
+    border: 3px dashed #191970 ;
+    text-shadow: -2px -1px black;
+}
+#contact{
+    color: #006400;
+    font-weight: bold;
+    border: 3px dashed #191970 ;
+    text-shadow: -2px -1px black;
+}
+p{
+    font-size: 20px;
+    margin-right: 200px;
+    background-color: rgb(255, 255, 255, 20%);
+    text-shadow: -2px -1px black;
+    
+}
