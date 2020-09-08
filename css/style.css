@@ -45,9 +45,22 @@ a{
     text-shadow: -2px -1px black;
 }
 p{
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 200px;
     background-color: rgb(255, 255, 255, 20%);
     text-shadow: -2px -1px black;
     
+}
+ol{
+    font-size: 20px;
+    margin-right: 200px;
+    background-color: rgb(255, 255, 255, 40%);
+    text-shadow: -2px -1px black;
+    
+}
+.ed{
+    font-size: 25px;
+    margin-right: 200px;
+    background-color: rgb(255, 255, 255, 20%);
+    text-shadow: -2px -1px black;
 }
