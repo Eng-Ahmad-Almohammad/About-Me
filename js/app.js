@@ -176,3 +176,5 @@ funSport(user);
 
 
  alert('Your final score is ' +sum + ' out of 7');
+
+//  updated By Diana 
