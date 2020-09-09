@@ -55,27 +55,28 @@ if (city === 'yes' || city === 'y') {
 
 var tall = prompt('Try to guess my hieght in cm ');
 tall = Number(tall);
-
-for (var i = 0; i <= 2; i++) {
-    if (tall === 185) {
-        alert('correct answer');
-        sum+=1
-        console.log(tall);
-        break;
-    } else if (tall > 185) {
-        alert('I am shorter -_-');
-        var tall = prompt('Ty to guess my hieght in cm ');
-        tall = Number(tall);
-        console.log(tall);
-
+    for (var i = 0; i <= 2; i++) {
+        if (tall === 185) {
+            alert('correct answer');
+            sum+=1
+            console.log(tall);
+            break;
+        } else if (tall > 185) {
+            alert('I am shorter -_-');
+            var tall = prompt('Ty to guess my hieght in cm ');
+            tall = Number(tall);
+            console.log(tall);
+    
+        }
+        else {
+            alert('Hey -_- I am taller');
+            var tall = prompt('Ty to guess my hieght in cm ');
+            tall = Number(tall);
+            console.log(tall);
+        }
     }
-    else {
-        alert('Hey -_- I am taller');
-        var tall = prompt('Ty to guess my hieght in cm ');
-        tall = Number(tall);
-        console.log(tall);
-    }
-}
+
+
 
 var favsport = ['football' , 'basketball' , 'volleyball' , 'swimming' , 'mma', 'hockey' , 'parkour' , 'golf' , 'mini golf' , 'ping pong' , 'tennis'];
 var user = prompt('What is my favourt sport ?').toLocaleLowerCase();
