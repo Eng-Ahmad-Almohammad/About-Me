@@ -148,12 +148,12 @@ function funHieght(tall) {
 funHieght(tall);
 
 
-var favsport = ['football' , 'basketball' , 'volleyball' , 'swimming' , 'mma', 'hockey' , 'parkour' , 'golf' , 'mini golf' , 'ping pong' , 'tennis'];
+var favSport = ['football' , 'basketball' , 'volleyball' , 'swimming' , 'mma', 'hockey' , 'parkour' , 'golf' , 'mini golf' , 'ping pong' , 'tennis'];
 var user = prompt('What is my favourite sport ?').toLocaleLowerCase();
 // declaring function 
 function funSport(user){
  for(var i=0 ; i<=4 ; i++) {
-     if(user === favsport[0] || user === favsport[9]) {
+     if(user === favSport[0] || user === favSport[9]) {
          alert('Great, it is correct');
          sum+=1
          console.log(user);
