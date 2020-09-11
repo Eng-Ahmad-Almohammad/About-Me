@@ -87,24 +87,25 @@ funArabian();
 
 
 // declaring funHieght
-var tall = prompt('Try to guess my hieght in cm ');
- tall = Number(tall);
-console.log(typeof tall);
+
+ var tall = 0 ;
+
 function funHieght(tall) {
 
-    for (var i = 0; i <= 2; i++) {
-
+    for (var i = 0; i <= 3; i++) {
+        var tall = prompt('Ty to guess my hieght in cm ');
+        tall = Number(tall);
         if (tall > 185) {
+           
             alert('I am shorter -_-');
-            var atall = prompt('Ty to guess my hieght in cm ');
+            
              tall = Number(tall);
             console.log(tall);
 
         }
         else if (tall < 185) {
             alert('Hey -_- I am taller');
-            var atall = prompt('Ty to guess my hieght in cm ');
-           tall = Number(tall);
+            tall = Number(tall);
             console.log(tall);
         }
         else if (tall === 185) {
@@ -123,18 +124,19 @@ funHieght(tall);
 
 
 var favSport = ['football' , 'basketball' , 'volleyball' , 'swimming' , 'mma', 'hockey' , 'parkour' , 'golf' , 'mini golf' , 'ping pong' , 'tennis'];
-var user = prompt('What is my favourite sport ?').toLocaleLowerCase();
+var user= 0;
 // declaring function 
 function funSport(user){
- for(var i=0 ; i<=4 ; i++) {
+ for(var i=0 ; i<=5 ; i++) {
+    var user = prompt('What is my favourite sport ?').toLocaleLowerCase();
      if(user === favSport[0] || user === favSport[9]) {
-         alert('Great, it is correct');
+        alert('Great! it is correct');
          sum+=1
          console.log(user);
          break;
      }else{
          alert('oops! it is wrong');
-         var user = prompt('What is my favourite sport ?').toLocaleLowerCase();
+         
          console.log(user);
      }
  }
