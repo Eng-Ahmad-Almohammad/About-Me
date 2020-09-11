@@ -146,7 +146,7 @@ funSport(user);
 
 
 
- alert('The possible answers are: ' + favsport[0] + ", " + favsport[9]);
+ alert('The possible answers are: ' + favSport[0] + ", " + favSport[9]);
 
 
  alert('Your final score is ' +sum + ' out of 7');
